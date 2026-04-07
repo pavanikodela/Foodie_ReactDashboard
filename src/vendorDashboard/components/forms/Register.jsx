@@ -83,4 +83,4 @@ const Register = ({ showLoginHandler }) => {
   );
 };
 
-export default Register; 
+export default Register;
