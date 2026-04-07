@@ -1,4 +1,3 @@
-
 import React, {useState} from 'react'
 import { API_URL } from '../../data/apiPath';
 import { ThreeCircles } from 'react-loader-spinner';
@@ -165,7 +164,7 @@ const AddFirm = () => {
           </div>
 
     </div>
-                
+               
                 <label >Firm Image</label>
                 <input type="file" onChange={handleImageUpload} />
                 <br />
@@ -177,4 +176,4 @@ const AddFirm = () => {
   )
 }
 
-export default AddFirm 
+export default AddFirm
